@@ -1,0 +1,15 @@
+#heading{
+    font-size: 2rem;
+}
+
+.headers{
+    color: red; 
+}
+
+div{
+    background-color: aqua;
+}
+
+#text p{
+    font-weight: bold;
+}
