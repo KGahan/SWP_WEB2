@@ -5,7 +5,7 @@ if(randomAsInteger > 800){
     console.log("bigger than 800");
 }
 else if(randomAsInteger < 800 && randomAsInteger > 500){
-    console.log("bigger than 500, smaller than ");
+    console.log("bigger than 500, smaller than 800");
 }
 else{
     console.log("smaller than 500");
