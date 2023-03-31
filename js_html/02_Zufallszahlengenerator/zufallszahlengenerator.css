@@ -1,0 +1,16 @@
+#header{
+    color: green;
+}
+
+#input{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#generator{
+    background-color: yellow;
+    width: 100vw;
+}
