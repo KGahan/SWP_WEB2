@@ -10,9 +10,6 @@ for (let index = 0; index < data.length; index++) {
     console.log(element.firstNname);
 }
 
-
-
-
 let person = {firstNname: "Hans", lastName: "Huber", points: 30}
 
 console.log(person.firstNname);
