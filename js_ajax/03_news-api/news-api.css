@@ -1,0 +1,96 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.reload{
+    margin-left: 20 px;
+}
+
+.news{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: flex;
+    width: 95%;
+}
+
+.title{
+font-weight: bold;
+}
+
+.image{
+    margin-right: 20px;
+}
+
+input[type="text"] {
+	width: 45vw;
+  	height: 30px;
+  	padding: 10px;
+  	font-size: 1.8rem;
+  	border: 1px solid gray;
+    margin: 10 px;
+}
+
+.inputs{
+    margin-bottom: 20px;
+}
+
+#topic{
+    margin-right: 30px;
+}
+
+#heading2{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.reload {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .reload:hover,
+  .reload:focus {
+    background-color: #F082AC;
+  }
