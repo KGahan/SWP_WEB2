@@ -29,7 +29,9 @@ function getNews(topic, dateStart, empty) {
                     console.log("fetching data successful");
                     let html = "";
                     data.articles.forEach(element => {
-                        html += "<div class='news'> <div class='image'> <img height='100' src='" + element.urlToImage + "'> </div> <div><p class='title'>" + element.title + "</p> <p class='content'>" + element.content + " </p> <p><a href = '" + element.url + "'> Read more </a></p> </div></div>";
+                        html += "<div class='news'> <div class='image'> ";
+                        html += "<img height='100' src='" + element.urlToImage;
+                        html += "'> </div> <div><p class='title'>" + element.title + "</p> <p class='content'>" + element.content + " </p> <p><a href = '" + element.url + "'> Read more </a></p> </div></div>";
                     });
                     document.getElementById("list").innerHTML = html;
                 } else {
